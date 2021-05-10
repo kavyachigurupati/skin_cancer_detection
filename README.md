@@ -9,7 +9,8 @@ The Skin Cancer Detection application was implemented as a final project for **I
 ## Dataset
 HAM10000 dataset - Large collection of multi-sources dermatoscopic images is available which can be used for training or testing the algorithm:
 https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T
-Required Libraries 
+
+## Required Libraries 
 To run the program , following libraries are required:
 * 	Numpy 
 * 	Pandas 
