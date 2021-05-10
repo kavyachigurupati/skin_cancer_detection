@@ -11,12 +11,12 @@ HAM10000 dataset - Large collection of multi-sources dermatoscopic images is ava
 https://dataverse.harvard.edu/dataset.xhtml?persistentId=doi:10.7910/DVN/DBW86T
 Required Libraries 
 To run the program , following libraries are required:
-●	Numpy 
-●	Pandas 
-●	PyTorch
-●	Matplotlib
-●	PIL 
-●	Seaborn for Visualizations.
+* 	Numpy 
+* 	Pandas 
+* 	PyTorch
+* 	Matplotlib
+* 	PIL 
+* 	Seaborn for Visualizations.
 
 ## Implementation 
 The first step for implementing the algorithm is to collect the data , preprocess the images to remove unwanted artifacts such as hair, noise. The next step is to segment the image and extract the skin lesions .The extracted lesion is normalized and sent to the RESNET model for learning the features by training and later predict the labels for images.
